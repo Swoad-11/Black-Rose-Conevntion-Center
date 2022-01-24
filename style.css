@@ -2,3 +2,82 @@
 .logo {
   font-family: "Architects Daughter", cursive;
 }
+.fas {
+  color: lightgray;
+}
+
+.hot {
+  width: 100px;
+  height: 40px;
+  left: 62%;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+/* ------------
+ media query
+ ------------  */
+@media only screen and (min-width: 280px) {
+  .hot {
+    bottom: -120%;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 740px) {
+  .carousel-item img {
+    height: 300px;
+  }
+  .fsize {
+    font-size: 12px !important;
+  }
+  .carousel-caption {
+    font-size: 10px;
+    height: 130px;
+    padding-top: 0 !important;
+    margin-bottom: 10px;
+  }
+  .cbtn {
+    width: 100px;
+    height: 25px;
+    padding: 0rem !important;
+    font-size: 0.75rem !important;
+  }
+  .hot {
+    bottom: -126%;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .hot {
+    bottom: -146%;
+  }
+}
+@media only screen and (min-width: 390px) {
+  .hot {
+    bottom: -93%;
+  }
+}
+@media only screen and (min-width: 412px) {
+  .hot {
+    bottom: -79%;
+  }
+}
+@media only screen and (min-width: 540px) {
+  .hot {
+    bottom: -137%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hot {
+    bottom: 19%;
+  }
+}
+@media only screen and (min-width: 820px) {
+  .hot {
+    bottom: 27%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .hot {
+    bottom: -68%;
+  }
+}
