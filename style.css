@@ -15,6 +15,11 @@
   padding-top: 7px;
 }
 
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
 /* ------------
  media query
  ------------  */
@@ -78,6 +83,6 @@
 }
 @media only screen and (min-width: 1024px) {
   .hot {
-    bottom: -68%;
+    bottom: -77%;
   }
 }
